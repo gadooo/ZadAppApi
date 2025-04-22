@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kDlnwLM7H7zEZSOfRvLa4whChngL5xHZxeKvax+9ai0=",
+  "Source": "ZadGroceryAppApi",
+  "BasePath": "_content/ZadGroceryAppApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
