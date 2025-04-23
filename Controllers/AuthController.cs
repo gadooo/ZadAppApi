@@ -10,11 +10,11 @@ using ZadGroceryAppApi.DTOs;
 [ApiController]
 public class AuthController : ControllerBase
 {
-    private readonly UserManager<IdentityUser> _userManager;
+    private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly IConfiguration _configuration;
 
-    public AuthController(UserManager<IdentityUser> userManager,
+    public AuthController(UserManager<ApplicationUser> userManager,
                           RoleManager<IdentityRole> roleManager,
                           IConfiguration configuration)
     {
@@ -30,14 +30,18 @@ public class AuthController : ControllerBase
         if (userExists != null)
             return StatusCode(StatusCodes.Status500InternalServerError, "User already exists!");
 
-        IdentityUser user = new()
+        ApplicationUser user = new()
         {
             UserName = model.Username,
             SecurityStamp = Guid.NewGuid().ToString(),
         };
         var result = await _userManager.CreateAsync(user, model.Password);
         if (!result.Succeeded)
-            return StatusCode(StatusCodes.Status500InternalServerError, "User creation failed!");
+        {
+            var errors = string.Join(" | ", result.Errors.Select(e => e.Description));
+
+            return StatusCode(StatusCodes.Status500InternalServerError, errors);
+        }
 
         if (!await _roleManager.RoleExistsAsync(model.Role))
             await _roleManager.CreateAsync(new IdentityRole(model.Role));

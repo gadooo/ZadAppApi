@@ -280,3 +280,4 @@ C:\Users\wizzy\source\repos\ZadGroceryAppApi\ZadGroceryAppApi\obj\Debug\net9.0\r
 C:\Users\wizzy\source\repos\ZadGroceryAppApi\ZadGroceryAppApi\obj\Debug\net9.0\ZadGroceryAppApi.pdb
 C:\Users\wizzy\source\repos\ZadGroceryAppApi\ZadGroceryAppApi\obj\Debug\net9.0\ZadGroceryAppApi.genruntimeconfig.cache
 C:\Users\wizzy\source\repos\ZadGroceryAppApi\ZadGroceryAppApi\obj\Debug\net9.0\ref\ZadGroceryAppApi.dll
+C:\Users\wizzy\source\repos\ZadGroceryAppApi\ZadGroceryAppApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

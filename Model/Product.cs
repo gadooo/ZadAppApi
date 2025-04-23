@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ZadGroceryAppApi.Model
 {
@@ -19,7 +20,7 @@ namespace ZadGroceryAppApi.Model
 
         [ForeignKey(nameof(category))]
         public int CategoryId { get; set; }
-       
-        public Category category { get; set; }
+        [JsonIgnore]
+        public Category? category { get; set; }
     }
 }
