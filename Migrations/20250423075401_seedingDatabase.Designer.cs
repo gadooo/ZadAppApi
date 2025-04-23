@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ZadGroceryAppApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250423075401_seedingDatabase")]
+    partial class seedingDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -336,35 +339,35 @@ namespace ZadGroceryAppApi.Migrations
                         new
                         {
                             Id = 1,
-                            OrderDate = new DateTime(2024, 4, 22, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderDate = new DateTime(2025, 4, 23, 7, 54, 0, 21, DateTimeKind.Utc).AddTicks(4466),
                             TotalAmount = 150.75m,
                             UserId = 1
                         },
                         new
                         {
                             Id = 2,
-                            OrderDate = new DateTime(2024, 4, 22, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderDate = new DateTime(2025, 4, 23, 7, 54, 0, 21, DateTimeKind.Utc).AddTicks(4916),
                             TotalAmount = 150.75m,
                             UserId = 1
                         },
                         new
                         {
                             Id = 3,
-                            OrderDate = new DateTime(2024, 4, 22, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderDate = new DateTime(2025, 4, 23, 7, 54, 0, 21, DateTimeKind.Utc).AddTicks(4918),
                             TotalAmount = 150.75m,
                             UserId = 2
                         },
                         new
                         {
                             Id = 4,
-                            OrderDate = new DateTime(2024, 4, 22, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderDate = new DateTime(2025, 4, 23, 7, 54, 0, 21, DateTimeKind.Utc).AddTicks(4919),
                             TotalAmount = 150.75m,
                             UserId = 2
                         },
                         new
                         {
                             Id = 5,
-                            OrderDate = new DateTime(2024, 4, 22, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            OrderDate = new DateTime(2025, 4, 23, 7, 54, 0, 21, DateTimeKind.Utc).AddTicks(4932),
                             TotalAmount = 150.75m,
                             UserId = 2
                         });
