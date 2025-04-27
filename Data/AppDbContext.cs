@@ -36,28 +36,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
 
         // Seed Products
-        builder.Entity<Product>().HasData(
-            new Product
-            {
-                Id = 1,
-                Name = "Banana",
-                Description = "Fresh organic bananas",
-                Price = 3.99m,
-                Stock = 50,
-                CategoryId = 1,
-                ImageUrl = "images/banana.jpg"
-            },
-            new Product
-            {
-                Id = 2,
-                Name = "Milk",
-                Description = "Full cream milk",
-                Price = 2.50m,
-                Stock = 30,
-                CategoryId = 3,
-                ImageUrl = "images/milk.jpg"
-            }
-        );
+      
 
         builder.Entity<Order>().HasData(
             new Order {

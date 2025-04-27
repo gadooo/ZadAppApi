@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png"
+    },
+    {
+      "Id": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ZadGroceryAppApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ZadGroceryAppApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ZadGroceryAppApi.props",
+      "PackagePath": "build\\ZadGroceryAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ZadGroceryAppApi.props",
+      "PackagePath": "buildMultiTargeting\\ZadGroceryAppApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ZadGroceryAppApi.props",
+      "PackagePath": "buildTransitive\\ZadGroceryAppApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "kDlnwLM7H7zEZSOfRvLa4whChngL5xHZxeKvax+9ai0=",
+  "Hash": "VPiVoaB5xE4zmVznJq5Nbvh5Iv9xFjtZMNpgpk07fyU=",
   "Source": "ZadGroceryAppApi",
   "BasePath": "_content/ZadGroceryAppApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ZadGroceryAppApi\\wwwroot",
+      "Source": "ZadGroceryAppApi",
+      "ContentRoot": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\",
+      "BasePath": "_content/ZadGroceryAppApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png",
+      "SourceId": "ZadGroceryAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\",
+      "BasePath": "_content/ZadGroceryAppApi",
+      "RelativePath": "uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75bcg30c0a",
+      "Integrity": "a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png"
+    },
+    {
+      "Identity": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png",
+      "SourceId": "ZadGroceryAppApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\",
+      "BasePath": "_content/ZadGroceryAppApi",
+      "RelativePath": "uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75bcg30c0a",
+      "Integrity": "a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.75bcg30c0a.png",
+      "AssetFile": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 03:04:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75bcg30c0a"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.png",
+      "AssetFile": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\204f7edf-0523-4904-a641-6ffdfbe04b13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 03:04:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.75bcg30c0a.png",
+      "AssetFile": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 03:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75bcg30c0a"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png",
+      "AssetFile": "C:\\Users\\wizzy\\source\\repos\\ZadGroceryAppApi\\ZadGroceryAppApi\\wwwroot\\uploads\\products\\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 03:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="
+        }
+      ]
+    }
+  ]
 }

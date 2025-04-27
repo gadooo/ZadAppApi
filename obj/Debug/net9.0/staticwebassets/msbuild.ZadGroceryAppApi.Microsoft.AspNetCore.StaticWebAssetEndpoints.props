@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ZadGroceryAppApi/uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.75bcg30c0a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\products\204f7edf-0523-4904-a641-6ffdfbe04b13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"75bcg30c0a"},{"Name":"integrity","Value":"sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="},{"Name":"label","Value":"_content/ZadGroceryAppApi/uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:04:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZadGroceryAppApi/uploads/products/204f7edf-0523-4904-a641-6ffdfbe04b13.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\products\204f7edf-0523-4904-a641-6ffdfbe04b13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:04:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZadGroceryAppApi/uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.75bcg30c0a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\products\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"75bcg30c0a"},{"Name":"integrity","Value":"sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="},{"Name":"label","Value":"_content/ZadGroceryAppApi/uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:07:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ZadGroceryAppApi/uploads/products/72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\products\72e0e3aa-9c24-4a84-9676-fa2b7c6bb4f7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022a7/ltye6myN/4sRvqtAQYGPNQ5JT1v3V5EzeyXkKTqQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 03:07:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
