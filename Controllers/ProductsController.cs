@@ -11,7 +11,6 @@ using ZadGroceryAppApi.Model;
 
 namespace ZadGroceryAppApi.Controllers
 {
-    //[Authorize(Roles = "user")]
 
     [Route("api/[controller]")]
     [ApiController]
@@ -28,6 +27,8 @@ namespace ZadGroceryAppApi.Controllers
         }
 
         // GET: api/Products
+        [Authorize(Roles = "user")]
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
         {
@@ -49,6 +50,8 @@ namespace ZadGroceryAppApi.Controllers
 
         // GET: api/Products/5
         [Authorize(Roles = "user")]
+
+        [Authorize(Roles = "user")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
@@ -68,7 +71,7 @@ namespace ZadGroceryAppApi.Controllers
 
         // POST: api/Products
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<ActionResult<ProductDto>> CreateProduct([FromForm] ProductCreateDto productDto)
         {
@@ -107,7 +110,7 @@ namespace ZadGroceryAppApi.Controllers
             return _context.Products.Any(e => e.Id == id);
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductCreateDto productDto)
         {
@@ -143,7 +146,7 @@ namespace ZadGroceryAppApi.Controllers
 
             return NoContent();
         }
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {

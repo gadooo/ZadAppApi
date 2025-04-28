@@ -14,6 +14,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader());
+});
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -64,6 +71,7 @@ app.UseStaticFiles(new StaticFileOptions
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("AllowAll");
 
 
 app.MapControllers();
