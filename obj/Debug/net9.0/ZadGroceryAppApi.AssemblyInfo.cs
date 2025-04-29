@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZadGroceryAppApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fbd00ac6d8e0662fd1dd3bde98eaae0cb727f74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5441857e104485c3c00d5df769934c429bac143d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZadGroceryAppApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZadGroceryAppApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

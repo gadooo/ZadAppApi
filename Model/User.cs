@@ -2,5 +2,5 @@
 
 public class ApplicationUser : IdentityUser
 {
-    
+    public int? PhoneNumber  { get; set; }
 }

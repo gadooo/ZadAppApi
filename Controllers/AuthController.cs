@@ -42,11 +42,13 @@ public class AuthController : ControllerBase
 
             return StatusCode(StatusCodes.Status500InternalServerError, errors);
         }
+        var defaultRole = "user";  // Default role
+        var roleToAssign = string.IsNullOrEmpty(model.Role) ? defaultRole : model.Role;
 
-        if (!await _roleManager.RoleExistsAsync(model.Role))
-            await _roleManager.CreateAsync(new IdentityRole(model.Role));
+        if (!await _roleManager.RoleExistsAsync(roleToAssign))
+            await _roleManager.CreateAsync(new IdentityRole(roleToAssign));
 
-        await _userManager.AddToRoleAsync(user, model.Role);
+        await _userManager.AddToRoleAsync(user, roleToAssign);
 
         return Ok("User created successfully!");
     }
